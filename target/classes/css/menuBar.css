@@ -1,0 +1,26 @@
+.button-bar{
+    -fx-background-color: #1a2227;
+    -fx-pref-height: 30;
+    -fx-text-fill: white;
+}
+.button{
+    -fx-text-fill: white;
+    -fx-background-color: #1a2227;
+    -fx-border-radius: 0;
+    -fx-border-style: none;
+}
+.button:hover{
+    -fx-background-color: #30383c;
+}
+#close:hover{
+    -fx-background-color: #c42b1c;
+}
+#icon{
+    -fx-background-image: url('../img/calculator.png');
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-max-width: 30;
+}
+#title{
+    -fx-text-alignment: left;
+}

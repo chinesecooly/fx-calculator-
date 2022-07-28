@@ -1,0 +1,15 @@
+.button{
+    -fx-pref-width: 82.5;
+    -fx-pref-height: 50;
+    -fx-font-size: 15;
+    -fx-text-fill: white;
+    -fx-background-color: #323232;
+    -fx-border-style:solid;
+    -fx-border-radius: 10;
+}
+.button:hover{
+    -fx-background-color: #373e3f;
+}
+.button:focused{
+    -fx-background-color: #323232;
+}

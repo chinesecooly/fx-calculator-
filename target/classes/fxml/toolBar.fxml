@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<ToolBar xmlns="http://javafx.com/javafx"
+         xmlns:fx="http://javafx.com/fxml"
+         fx:controller="com.chinesecooly.controller.ToolBarController"
+         fx:id="toolBar"
+         stylesheets="@../css/toolBar.css">
+
+
+        <Button fx:id="topRight"/>
+        <Separator>
+            <padding>
+                <Insets left="128.0" right="128"/>
+            </padding>
+        </Separator>
+        <Button fx:id="history"/>
+
+</ToolBar>

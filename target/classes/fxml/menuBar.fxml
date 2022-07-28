@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<?import javafx.scene.text.Text?>
+<ButtonBar xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.chinesecooly.controller.MenuBarController"
+           fx:id="buttonBar"
+           stylesheets="@../css/menuBar.css"
+           onMousePressed="#mousePressedHandler"
+           onMouseDragged="#mouseDraggedHandler">
+
+    <buttons>
+        <Button id="minimize" text="—" onAction="#minimizeHandler" ButtonBar.buttonData="RIGHT"/>
+        <Button id="close" text="X" onAction="#closeHandler" ButtonBar.buttonData="RIGHT"/>
+    </buttons>
+
+</ButtonBar>

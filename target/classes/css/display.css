@@ -1,0 +1,14 @@
+.text-field{
+    -fx-background-color: #1a2224;
+    -fx-text-fill: white;
+    -fx-alignment: baseline-right;
+}
+#tf1{
+    -fx-pref-height: 30;
+}
+#tf2{
+    -fx-pref-height: 90;
+    -fx-font-family: "Arial Black";
+    -fx-font-size: 50;
+    -fx-padding: 5;
+}

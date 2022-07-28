@@ -1,0 +1,27 @@
+.tool-bar{
+    -fx-background-color: #1a2224;
+    -fx-padding: 10;
+}
+.tool-bar .button{
+    -fx-min-height: 20;
+    -fx-min-width: 20;
+    -fx-max-height: 20;
+    -fx-max-width: 20;
+    -fx-pref-height: 20;
+    -fx-pref-width: 20;
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-background-color: #1a2224;
+    -fx-border-radius: 0;
+    -fx-border-style: none;
+}
+#history{
+    -fx-background-image: url("../img/history.png");
+    -fx-content-display: right;
+}
+#topRight{
+    -fx-background-image: url("../img/topRightCorner.png");
+}
+.separator{
+    -fx-background-color: #1a2224;
+}
